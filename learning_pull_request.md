@@ -33,5 +33,18 @@ git commit -m "обучеия pull request"
 ```
 git push 
 ```
+Переходим на свою страницу репозитория. Выбираем ветку courses-GitHub-2  и жмем кнопку Compare & pull request
 
+Заметки
+Что бы сделать push от другого пользователя необходимо выполнить команду
+
+```
+GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push https://github.com/Vladimir1308/courses-GitHub-2.git
+```
+вместо user-private-key подставьте свой ключ
+
+Можно прописать настройки для подсоединения по ssh
+
+git config remote.origin.url git@github.com:gitusername/reponame
+git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 
