@@ -1,11 +1,11 @@
 # Это репозиторий для обучения pull request
-Создаем репозиторий на Git Hub c именем (*courses-GitHub-2*).
+1. Создаем репозиторий на Git Hub c именем (*courses-GitHub-2*).
 
-Ищем кнопку Fork на странице репозитория 
+2. Ищем кнопку Fork на странице репозитория 
 
 https://github.com/Vladimir1308/courses-GitHub-2.git
 
-Открываем ДЗ 2 в Visual Studio Code.
+3. Открываем ДЗ 2 в Visual Studio Code.
 
 Выполняем команды для переноса ДЗ 2:
 ``` 
@@ -15,13 +15,23 @@ https://github.com/Vladimir1308/courses-GitHub-2.git
 ``` 
 Проверяем перенос файла.
 
-Создаем папку на ПК (*git courses GitHub*).
+4. Создаем папку на ПК (*git courses GitHub*).
 
 Открываем папку в Visual Studio Code
 и клонируем перенесенные фаилы командой 
 ```
 git clone https://github.com/Vladimir1308/courses-GitHub-2.git
 ```
+5. Создаем новую ветку и вносим необходимые изменения в файл
 
+```
+git add learning_pull_request.md
+git commit -m "обучеия pull request"
+```
+6. Делаем push
+
+```
+git push 
+```
 
 
